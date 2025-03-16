@@ -55,10 +55,53 @@ Both architectures are evaluated for accuracy, loss, and other key performance m
 
 ✔ **Parameter Analysis**
 - Total **trainable and non-trainable parameters** are reported.
-- **Hyperparameter tuning** is performed to find the best configuration.
+- **For CNN:**
+  - Trainable Parameters: **484,316**
+  - Non-Trainable Parameters: **0**
+- **For Transformer:**
+  - Trainable Parameters: **6,322,984**
+  - Non-Trainable Parameters: **0**
 
-## Result
 
+
+- 
+
+
+## 📊 Results
+
+### using CNN Model
+
+| Epochs | Training Loss | Training Accuracy | Validation Loss | Validation Accuracy | Test Loss | Test Accuracy | F1 Score |
+|--------|--------------|-------------------|----------------|---------------------|-----------|--------------|---------|
+| 100    | 0.5447       | 97.71%            | 0.4004         | 85.31%             | 2.4624    | 47.50%       | 0.4066  |
+
+
+
+### using Transformer of 1 head
+
+| Epochs | Training Loss | Training Accuracy | Validation Loss | Validation Accuracy | Test Loss | Test Accuracy | F1 Score |
+|--------|--------------|-------------------|----------------|---------------------|-----------|--------------|----------|
+| 100    | 0.7409       | 97.19%            | 0.2126         | 92.81%              | 1.6462    | 55.00%       | 0.5187   |
+
+
+### using Transformer of 2 head
+
+| Epochs | Training Loss | Training Accuracy | Validation Loss | Validation Accuracy | Test Loss | Test Accuracy | F1 Score |
+|--------|--------------|-------------------|----------------|---------------------|-----------|--------------|----------|
+| 100    | 0.1537       | 99.69%            | 0.0208         | 99.06%             | 2.8367    | 47.50%       | 0.4371   |
+
+
+### using Transformer of 4 head
+
+| Epochs | Training Loss | Training Accuracy | Validation Loss | Validation Accuracy | Test Loss | Test Accuracy | F1 Score |
+|--------|--------------|-------------------|----------------|---------------------|-----------|--------------|----------|
+| 100    | 0.2017       | 98.85%            | 0.0468         | 98.75%             | 2.8476    | 45.00%       | 0.4252   |
+
+
+
+---
+
+## 📂 Repository Structure
 
 
 
