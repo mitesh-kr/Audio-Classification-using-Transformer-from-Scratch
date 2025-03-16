@@ -69,7 +69,7 @@ Both architectures are evaluated for accuracy, loss, and other key performance m
 
 ## 📊 Results
 
-### using CNN Model
+### CNN Model
 
 | Epochs | Training Loss | Training Accuracy | Validation Loss | Validation Accuracy | Test Loss | Test Accuracy | F1 Score |
 |--------|--------------|-------------------|----------------|---------------------|-----------|--------------|---------|
@@ -77,21 +77,21 @@ Both architectures are evaluated for accuracy, loss, and other key performance m
 
 
 
-### using Transformer of 1 head
+### Transformer of 1 head
 
 | Epochs | Training Loss | Training Accuracy | Validation Loss | Validation Accuracy | Test Loss | Test Accuracy | F1 Score |
 |--------|--------------|-------------------|----------------|---------------------|-----------|--------------|----------|
 | 100    | 0.7409       | 97.19%            | 0.2126         | 92.81%              | 1.6462    | 55.00%       | 0.5187   |
 
 
-### using Transformer of 2 head
+### Transformer of 2 head
 
 | Epochs | Training Loss | Training Accuracy | Validation Loss | Validation Accuracy | Test Loss | Test Accuracy | F1 Score |
 |--------|--------------|-------------------|----------------|---------------------|-----------|--------------|----------|
 | 100    | 0.1537       | 99.69%            | 0.0208         | 99.06%             | 2.8367    | 47.50%       | 0.4371   |
 
 
-### using Transformer of 4 head
+### Transformer of 4 head
 
 | Epochs | Training Loss | Training Accuracy | Validation Loss | Validation Accuracy | Test Loss | Test Accuracy | F1 Score |
 |--------|--------------|-------------------|----------------|---------------------|-----------|--------------|----------|
