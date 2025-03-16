@@ -116,3 +116,4 @@ Both architectures are evaluated for accuracy, loss, and other key performance m
 ```bash
 git clone https://github.com/mitesh-kr/Environmental-Audio-Classification.git
 cd Environmental-Audio-Classification
+pip install requirement.txt
