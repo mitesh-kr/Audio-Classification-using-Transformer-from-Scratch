@@ -113,7 +113,6 @@ Both architectures are evaluated for accuracy, loss, and other key performance m
 
 ### 🔹 Clone the Repository
 
-```bash
-git clone https://github.com/mitesh-kr/Environmental-Audio-Classification.git
-cd Environmental-Audio-Classification
-pip install requirement.txt
+git clone https://github.com/mitesh-kr/Audio-Classification-using-Transformer-from-Scratch.git
+cd Audio-Classification-using-Transformer-from-Scratch
+pip install -r requirements.txt
