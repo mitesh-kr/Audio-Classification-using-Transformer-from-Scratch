@@ -1,0 +1,11 @@
+pandas==2.2.2
+torchaudio==2.6.0+cu124
+torch==2.6.0+cu124
+numpy==1.26.4
+IPython==7.34.0
+matplotlib==3.10.0
+pytorch-lightning==2.5.0.post0
+scikit-learn==1.6.1
+seaborn==0.13.2
+torchsummary==1.5.1
+wandb==0.19.8
