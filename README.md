@@ -57,6 +57,12 @@ Both architectures are evaluated for accuracy, loss, and other key performance m
 - Total **trainable and non-trainable parameters** are reported.
 - **Hyperparameter tuning** is performed to find the best configuration.
 
+## Result
+
+
+
+
+
 ---
 
 ## ⚡ Setup & Installation
