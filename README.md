@@ -1,6 +1,7 @@
 # Environmental Sound Classification using Transformers from Scratch
 
 This repository contains an implementation of a Transformer network and a CNN-based model for classifying environmental audio recordings into 10 different classes. The models are implemented in PyTorch.
+## Google Colab [Link](https://colab.research.google.com/drive/1verjVPaupv9xLMw20HILHFqJn-iUHgTj?usp=sharing) 
 
 ## 📌 Objective
 
