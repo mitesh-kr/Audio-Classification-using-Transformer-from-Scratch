@@ -30,6 +30,8 @@ The repository implements the following models:
 Install the required dependencies:
 
 ```bash
+git clone https://github.com/mitesh-kr/Audio-Classification-using-Transformer-from-Scratch.git
+cd Audio-Classification-using-Transformer-from-Scratch
 pip install -r requirements.txt
 ```
 
