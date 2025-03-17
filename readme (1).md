@@ -2,6 +2,9 @@
 
 This repository contains code for audio classification models using CNN and hybrid CNN-Transformer architectures, trained on the ESC-10 dataset.
 
+
+## Google Colab [Link](https://colab.research.google.com/drive/1verjVPaupv9xLMw20HILHFqJn-iUHgTj?usp=sharing) 
+
 ## Project Structure
 
 - `main.py`: Main script to run training and evaluation
