@@ -127,6 +127,20 @@ The model performance can be visualized through:
 - Confusion matrix
 - ROC curves
 
+## Project Structure
+```
+audio-classification-project/
+├── requirements.txt
+├── main.py
+├── data/
+│   └── data_module.py
+├── models/
+│   ├── models.py
+├── utils/
+│   └── trainer.py
+└── README.md
+```
+
 ## License
 
 This project is released under the MIT License.
